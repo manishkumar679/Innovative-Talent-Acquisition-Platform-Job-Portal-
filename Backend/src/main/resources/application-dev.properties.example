@@ -1,0 +1,18 @@
+# Development Environment Configuration Template
+# Copy this to application-dev.properties and customize for your local setup
+
+# Development Database
+spring.data.mongodb.uri=mongodb://localhost:27017/careerconnect_dev
+
+# Development JWT (use a simple secret for local testing)
+jwt.secret=dev-secret-key-change-in-production
+
+# Development Logging (more verbose for debugging)
+logging.level.com.jobportal=DEBUG
+logging.level.org.springframework.web=DEBUG
+logging.level.org.springframework.security=DEBUG
+
+# Development Email (optional - for testing)
+spring.mail.host=localhost
+spring.mail.port=1025
+# Use MailHog or similar for local email testing
