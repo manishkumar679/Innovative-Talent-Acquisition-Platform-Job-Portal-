@@ -90,7 +90,7 @@ jobnest/
 
 ```bash
 # Clone the repository
-git clone https://github.com/Anuj-er/careerconnect-platform.git
+git clone https://github.com/manishkumar679/Innovative-Talent-Acquisition-Platform-Job-Portal-.git
 
 # Navigate to project directory
 cd Job-Portal
